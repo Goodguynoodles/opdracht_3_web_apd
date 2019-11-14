@@ -1,0 +1,22 @@
+{
+  "name": "opracht_3",
+  "version": "1.0.0",
+  "description": "hee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goodguynoodles/opdracht_3_web_apd.git"
+  },
+  "author": "koos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goodguynoodles/opdracht_3_web_apd/issues"
+  },
+  "homepage": "https://github.com/Goodguynoodles/opdracht_3_web_apd#readme",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.1"
+  }
+}
