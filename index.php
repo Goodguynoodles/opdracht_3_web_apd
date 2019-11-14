@@ -16,28 +16,16 @@
 
 <body>
   <main class="container-fluid">
-
     <div class="row">
-      <div class="col-12">
-        <h1 id="header">big titty anime site</h1>
-      </div>
-      <div class="col-12" id="navigation">
-        <?php
-        include ("./navigation.php");
-        ?>
-      </div>
-    </div>
-    <div class="row jumbotron" id="box">
-      <div class="col-6">dit is plot</div>
-      <div class="col-5"><img src="./img/hide-pain-harold-title-red -web.jpg" width="500px"></div>
-    </div>
-    <div class="col-12">
-      <h1 id="footer">big anime ass</h1>
-    </div>
-    </div>
+      <?php
+      include ("./pages/header.php");
+      include ("./pages/navigation.php");
+      include ("./pages/content.php");
+      include ("./pages/footer.php");
+    ?>
   </main>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>

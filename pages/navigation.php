@@ -1,4 +1,5 @@
-<ul class="nav nav-tabs">
+<div class="col-10" id="navigation">
+        <ul class="nav nav-tabs">
           <li class="nav-item">
             <a class="nav-link active" id="active" href="#">Active</a>
           </li>
@@ -12,3 +13,5 @@
             <a class="nav-link" href="#">link</a>
           </li>
         </ul>
+      </div>
+    </div>
